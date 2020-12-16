@@ -25,6 +25,14 @@ class Point3D extends Point {
     getY() {
         return this.y;
     }
+
+    set x(x) {
+        this.x = x;
+    }
+
+    get x() {
+        return this.x;
+    }
 }
 
 let point1 = {
